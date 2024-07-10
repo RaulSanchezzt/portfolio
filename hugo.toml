@@ -1,0 +1,53 @@
+baseurl = "https://raulsanchezzt.com"
+title = "RSZT :)"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Raúl Sánchez Tarazona"
+  info = "Data Center Technician at AWS"
+  description = "Raúl Sánchez's personal website"
+  keywords = "raul sanchez,DCO,Data Center Technician, AWS"
+  avatarurl = "https://media.licdn.com/dms/image/D4D03AQGffMEDHDCk1w/profile-displayphoto-shrink_400_400/0/1718310006371?e=1726099200&v=beta&t=PQM99aFEKioo_5vsWRYkBRgJoUbhNQKeXySClUwAzOY"
+
+  faviconSVG = "/favicons/favicon.svg"
+  favicon_32 = "/favicons/favicon-32x32.png"
+  favicon_16 = "/favicons/favicon-16x16.png"
+
+  touchIcon = "/favicons/apple-touch-icon.png"
+  mask_icon = "/favicons/safari-pinned-tab.svg"
+
+  # since = 2017
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+# Social links
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/raulsanchezzt/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/raulsanchezzt/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa-brands fa-gitlab fa-2x"
+  weight = 3
+  url = "https://gitlab.com/RSZT/"
+[[params.social]]
+  name = "Mail"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:raulsanchezzt@gmail.com"
